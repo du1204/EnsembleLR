@@ -1,0 +1,1070 @@
+isYfirst = 0, number of iterations = 6, g_k = 5
+factors = 16, samples = 15649, fold = 10, part = 4
+gammaUp = 10, gammaDown = -1, initial bound = 0.5
+batch = 2, slots = 32768, cnum = 8
+HEAAN PARAMETER logQ: 1013
+HEAAN PARAMETER logN: 16
+------------------
+Start Scheme generating...
+Scheme generation time = 12794.1 ms
+------------------
+------------------
+Start Polynomial generating...
+Polynomial generation time = 15.324 ms
+------------------
+ !!! START Ensemble NLGD for 1 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6796.79 ms
+------------------
+initial vector = 0.369393, 0.227599, 0.343146, 0.29766, -0.337485, 0.383836, -0.0398857, 0.470842, 0.417375, -0.0648469, -0.107528, 0.127916, -0.128588, -0.350502, 0.029398, -0.261111, 0.382449, 0.129693, -0.346774, -0.442486, -0.404893, -0.362018, -0.422997, -0.164931, -0.396731, -0.104293, -0.0804312, 0.0517965, 0.331654, -0.0581482, 0.245633, 0.259843, 0.307969, 0.353677, 0.316889, 0.339001, 0.122486, 0.166561, -0.0338787, -0.385855, 0.06127, -0.434869, 0.222357, -0.35072, 0.388964, -0.415062, 0.228127, 0.262678, -0.0644403, -0.190838, 0.412518, -0.103111, -0.230857, -0.0804866, 0.101163, -0.195346, 0.456489, -0.304135, -0.116881, 0.232856, -0.063723, 0.140441, 0.322822, -0.327945, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 788.973 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 809.473 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 803.185 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 776.074 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 795.611 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 812.765 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 811.735 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 795.676 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 65058.2 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 58724.4 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 54871.2 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48110.9 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 41723.4 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 41346.9 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.414086,-0.00363417,0.60597,-0.151821,-0.478523,-0.303595,-0.163207,-0.275253,-0.425149,-0.372303,-0.185093,-0.35205,-0.366125,0.0328849,-0.161158,-0.112857,
+Correctness: 78.3248 %.
+AUC: 0.709128
+------------------
+------PLAIN-------
+w:-0.413999,-0.00375886,0.605881,-0.15177,-0.478334,-0.303698,-0.163334,-0.275427,-0.425129,-0.372406,-0.185137,-0.352262,-0.366249,0.0327089,-0.161229,-0.112992,
+Correctness: 78.3248 %.
+AUC: 0.709159
+------------------
+-------TRUE-------
+w:-0.33973,0.00136433,0.638558,-0.1429,-0.443137,-0.269053,-0.158956,-0.251262,-0.366943,-0.335093,-0.166776,-0.350129,-0.31034,0.0489232,-0.159096,-0.0920264,
+Correctness: 78.3248 %.
+AUC: 0.718425
+------------------
+ !!! STOP 1 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 2 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6217.32 ms
+------------------
+initial vector = -0.0194743, -0.268592, -0.0486213, 0.466996, 0.141374, 0.0442143, -0.0138243, 0.404971, -0.369775, 0.149158, 0.36396, 0.4925, -0.0299316, 0.219533, 0.0360601, -0.240017, 0.0662618, -0.487527, -0.380311, -0.394362, 0.00200647, -0.264223, -0.178136, -0.486144, -0.378299, -0.0345667, 0.0173161, 0.169943, -0.160008, 0.400002, 0.436955, 0.251602, -0.148626, -0.1181, 0.193653, -0.0506223, 0.451038, -0.21149, -0.484039, -0.177085, 0.332936, -0.104598, -0.238718, 0.3975, 0.164017, 0.0947943, -0.437519, 0.10419, -0.0855259, -0.115083, 0.234752, -0.474838, -0.48055, 0.314963, -0.383961, 0.326927, -0.2037, 0.0671485, 0.206066, -0.341144, 0.262149, 0.471056, -0.282335, 0.285815, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 717.396 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 722.321 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 701.456 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 685.993 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 701.614 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 693.96 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 686.498 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 664.342 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 63809.6 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 55125.5 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 55274.9 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 47865 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 42819.5 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 41857.1 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.608318,-0.376103,0.465903,-0.245433,-0.268549,-0.247891,-0.311405,-0.158992,-0.631383,-0.0769132,-0.167694,-0.108826,-0.247477,0.330416,-0.350202,0.0285773,
+Correctness: 80.1151 %.
+AUC: 0.689455
+------------------
+------PLAIN-------
+w:-0.711598,-0.377147,0.617254,-0.283576,-0.388159,-0.323905,-0.352277,-0.227978,-0.737692,-0.170136,-0.214039,-0.19691,-0.338852,0.338373,-0.390561,-1.4653e-05,
+Correctness: 80.1151 %.
+AUC: 0.694667
+------------------
+-------TRUE-------
+w:-0.642857,-0.37135,0.646947,-0.252983,-0.351854,-0.297172,-0.346591,-0.204605,-0.68218,-0.134619,-0.199631,-0.178153,-0.284518,0.334013,-0.371804,0.0191105,
+Correctness: 80.1151 %.
+AUC: 0.704437
+------------------
+ !!! STOP 2 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 3 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6365.83 ms
+------------------
+initial vector = 0.297536, 0.14704, -0.0666031, -0.218078, 0.308205, 0.0117426, 0.0250892, -0.409062, -0.270195, 0.171207, 0.440859, 0.346344, 0.44829, 0.402677, 0.392646, 0.0984862, -0.0893892, 0.222471, -0.367403, 0.203146, 0.473589, -0.367774, -0.0535581, -0.227467, 0.253047, 0.300014, 0.411026, 0.396915, -0.463758, 0.0899405, 0.488083, -0.0465872, 0.433953, -0.233465, -0.209606, 0.476963, 0.151499, 0.181874, -0.121573, -0.0288097, 0.308016, -0.0685264, 0.475181, 0.0783571, 0.265033, 0.295343, 0.356724, -0.330588, -0.110988, -0.0920324, 0.00066288, 0.00379039, -0.413733, 0.357218, 0.0950066, -0.409926, 0.214851, -0.122064, -0.443894, 0.128971, -0.368719, -0.462042, -0.266245, -0.01612, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 768.662 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 709.344 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 687.509 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 751.08 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 782.858 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 746.88 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 707.544 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 683.199 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 64285.3 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 58249.8 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 56393.5 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48283.1 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 43079.7 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 42487.6 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.571618,-0.130303,0.28915,-0.0974835,-0.191892,-0.257937,-0.09294,-0.486247,-0.465328,-0.096636,-0.128507,-0.201629,-0.38452,0.171978,-0.196381,-0.177777,
+Correctness: 79.2199 %.
+AUC: 0.633116
+------------------
+------PLAIN-------
+w:-0.749377,-0.224699,0.443286,-0.168589,-0.288772,-0.338987,-0.180877,-0.543484,-0.649719,-0.139259,-0.18208,-0.250924,-0.469394,0.256451,-0.294181,-0.177957,
+Correctness: 79.2199 %.
+AUC: 0.64229
+------------------
+-------TRUE-------
+w:-0.657287,-0.221452,0.462489,-0.245929,-0.290877,-0.260428,-0.165419,-0.520599,-0.584277,-0.100006,-0.198002,-0.281074,-0.361382,0.270606,-0.324331,-0.155418,
+Correctness: 79.2199 %.
+AUC: 0.650656
+------------------
+ !!! STOP 3 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 4 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6767.99 ms
+------------------
+initial vector = -0.356682, 0.197828, 0.177148, 0.00950668, -0.387283, -0.126187, -0.252753, 0.385313, 0.0145661, 0.157636, -0.207799, 0.167386, -0.210922, 0.301961, 0.422057, 0.3544, -0.426234, -0.136084, 0.253847, 0.194263, 0.0123161, 0.12342, -0.356564, -0.232674, 0.0161102, 0.329589, 0.176918, 0.300427, 0.126402, -0.365007, 0.420469, 0.327199, 0.271636, 0.450084, -0.108874, -0.166613, -0.464798, 0.386259, -0.298767, -0.192491, -0.00924302, 0.038786, 0.019055, 0.0740003, -0.441601, -0.193917, -0.158414, 0.208772, -0.484398, -0.455533, 0.303204, -0.214462, 0.41218, -0.0893628, 0.219654, 0.025824, -0.303934, 0.415057, 0.403823, -0.468446, 0.428065, 0.207493, -0.183477, -0.0165284, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 736.992 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 812.479 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 775.45 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 759.349 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 761.613 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 738.935 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 794.543 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 823.164 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 61658 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 60594.8 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 56003.9 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48062.3 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 45534.9 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 42554.7 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.807926,-0.113293,0.614376,-0.211618,-0.333484,-0.198536,-0.232205,-0.179469,-0.547717,0.133618,-0.121544,-0.334822,-0.363823,0.121798,-0.228162,0.147417,
+Correctness: 78.7084 %.
+AUC: 0.691166
+------------------
+------PLAIN-------
+w:-0.995236,-0.16964,0.725227,-0.253757,-0.405687,-0.28347,-0.277486,-0.31527,-0.710026,0.0985893,-0.167076,-0.397699,-0.481279,0.18587,-0.301697,0.102752,
+Correctness: 78.7084 %.
+AUC: 0.678327
+------------------
+-------TRUE-------
+w:-0.915335,-0.163715,0.755344,-0.238103,-0.361701,-0.25453,-0.270516,-0.289662,-0.647167,0.137797,-0.152784,-0.39007,-0.41567,0.192524,-0.294067,0.124182,
+Correctness: 78.7084 %.
+AUC: 0.687039
+------------------
+ !!! STOP 4 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 5 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6693.56 ms
+------------------
+initial vector = 0.0751216, 0.261147, -0.0942072, -0.146327, 0.0763296, 0.217334, 0.0175436, 0.02488, 0.307768, -0.144466, -0.428995, 0.0570139, 0.275274, -0.443538, -0.180772, 0.126627, 0.432128, -0.134219, -0.363383, -0.0327222, -0.0162363, 0.235695, -0.493214, -0.355257, 0.200513, 0.0125727, -0.112635, 0.486568, 0.334093, -0.34666, -0.390173, 0.270759, 0.361061, -0.348636, 0.185524, -0.164156, 0.131414, 0.23554, -0.160427, -0.42561, 0.0905202, -0.490448, -0.00776965, -0.0910638, 0.407122, 0.356728, 0.411012, 0.119596, 0.0324643, -0.496517, 0.34959, 0.419749, -0.0605247, -0.105632, -0.246086, 0.0818917, -0.469426, -0.0397609, 0.0493553, -0.319059, -0.0685489, 0.253772, 0.303273, 0.251634, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 706.932 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 757.304 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 766.791 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 776.661 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 728.242 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 822.348 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 733.489 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 735.407 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 63188.6 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 59437.2 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 57049.5 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48574.7 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 42362.3 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 42056.9 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.440895,-0.311288,0.44624,-0.19879,-0.284367,-0.150636,-0.273064,-0.379514,-0.530461,-0.316056,-0.238226,-0.255282,-0.315786,0.131124,-0.252973,0.0935356,
+Correctness: 79.5396 %.
+AUC: 0.663605
+------------------
+------PLAIN-------
+w:-0.689585,-0.353738,0.627474,-0.262403,-0.385862,-0.221631,-0.342474,-0.458424,-0.707809,-0.291597,-0.280013,-0.35495,-0.436072,0.17744,-0.328479,0.119132,
+Correctness: 79.5396 %.
+AUC: 0.675927
+------------------
+-------TRUE-------
+w:-0.617437,-0.347383,0.661712,-0.232832,-0.337877,-0.203025,-0.336908,-0.433808,-0.649852,-0.254212,-0.245061,-0.338304,-0.398875,0.195725,-0.311833,0.139512,
+Correctness: 79.5396 %.
+AUC: 0.687741
+------------------
+ !!! STOP 5 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 6 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6649.71 ms
+------------------
+initial vector = -0.3416, -0.0537261, -0.408824, 0.172194, -0.128763, -0.1903, -0.309069, 0.211455, -0.344531, 0.255691, 0.382041, 0.350364, -0.250536, -0.43015, -0.477504, 0.389548, 0.429934, -0.0102936, 0.416748, 0.308106, 0.460313, -0.420361, -0.270598, -0.0478775, -0.383032, -0.00901616, 0.378318, -0.215663, -0.463516, 0.182664, -0.327597, 0.260125, -0.0154852, -0.0962895, 0.452905, 0.477745, -0.402802, 0.182601, 0.0299223, -0.28853, -0.034047, 0.178028, -0.156926, 0.0412191, -0.0395034, 0.0614633, -0.296095, 0.124632, 0.092006, -0.243813, -0.125317, -0.45813, -0.119665, -0.20152, -0.37121, 0.0625418, 0.287596, 0.317622, 0.13426, 0.0649654, -0.0827238, 0.0408634, -0.448017, -0.190398, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 758.959 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 728.14 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 747.901 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 731.385 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 782.597 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 750.008 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 780.021 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 751.891 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 61381.4 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 57382.7 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 55953.4 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48925.1 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 43461 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 43122.7 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.50134,-0.232162,0.540373,-0.135832,-0.360339,-0.332029,-0.285282,-0.189286,-0.587101,0.0908451,-0.0525918,-0.190462,-0.514193,-0.0221524,-0.637912,0.0783844,
+Correctness: 79.2199 %.
+AUC: 0.696271
+------------------
+------PLAIN-------
+w:-0.673463,-0.320959,0.697135,-0.201425,-0.456851,-0.387538,-0.371067,-0.303993,-0.764091,0.0177605,-0.122594,-0.279225,-0.623355,0.0220895,-0.720132,0.107993,
+Correctness: 79.2199 %.
+AUC: 0.692191
+------------------
+-------TRUE-------
+w:-0.585702,-0.313948,0.73676,-0.173538,-0.404749,-0.357186,-0.365734,-0.274555,-0.694035,0.0622973,-0.0970382,-0.25827,-0.56115,0.0266906,-0.699177,0.132571,
+Correctness: 79.2199 %.
+AUC: 0.704705
+------------------
+ !!! STOP 6 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 7 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6850.01 ms
+------------------
+initial vector = 0.386416, -0.0849339, 0.15577, 0.0398532, 0.183795, 0.425022, -0.231424, 0.460262, -0.228133, -0.463543, 0.136724, 0.0361561, -0.154937, 0.0982663, 0.242515, -0.142976, -0.222876, -0.140665, -0.270974, -0.154081, 0.421891, -0.00977347, -0.0666675, -0.172334, 0.247918, -0.157194, -0.164385, -0.10409, 0.27037, -0.422275, -0.491021, 0.141815, -0.293161, -0.0925429, -0.462997, 0.018903, -0.325727, 0.0382029, -0.498712, -0.187196, -0.346414, -0.131272, 0.0377401, -0.330122, 0.437719, -0.320994, 0.317648, 0.142637, -0.245289, 0.174943, -0.481804, 0.093175, 0.222523, -0.199926, -0.341915, 0.467864, -0.231512, -0.199129, -0.334499, 0.077362, -0.281648, -0.200958, 0.361165, 0.210105, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 801.991 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 731.964 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 718.839 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 759.047 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 753.357 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 830.515 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 867.642 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 772.672 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 62635.7 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 57272 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 53857.7 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 46833.9 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 43650.2 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 43465.8 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.572989,-0.164098,0.29105,-0.143735,-0.135092,-0.125162,-0.31488,-0.00642786,-0.554342,-0.287547,-0.141063,-0.380588,-0.351361,0.0293114,-0.192934,0.0460147,
+Correctness: 79.6675 %.
+AUC: 0.6572
+------------------
+------PLAIN-------
+w:-0.741397,-0.244434,0.465282,-0.19399,-0.249261,-0.222314,-0.407721,-0.0825622,-0.74516,-0.283297,-0.171769,-0.450466,-0.507251,0.0347998,-0.372943,0.0728477,
+Correctness: 79.6675 %.
+AUC: 0.666487
+------------------
+-------TRUE-------
+w:-0.641292,-0.237107,0.51635,-0.156106,-0.193166,-0.186357,-0.399725,-0.0487946,-0.66504,-0.231318,-0.129963,-0.426764,-0.448953,0.052899,-0.34924,0.101712,
+Correctness: 79.6675 %.
+AUC: 0.682395
+------------------
+ !!! STOP 7 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 8 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6926.81 ms
+------------------
+initial vector = -0.078775, 0.314741, 0.078894, 0.36811, 0.0392942, -0.0226508, -0.455159, 0.0695393, 0.0896512, 0.455923, 0.29792, 0.196368, -0.431641, -0.178864, 0.240922, 0.399261, -0.274016, -0.380275, 0.121918, 0.154327, -0.316422, -0.042422, 0.167493, 0.458251, 0.38063, 0.181294, 0.447459, 0.258118, -0.274989, 0.171906, -0.32595, 0.335607, -0.285169, 0.452877, -0.464268, 0.0683003, 0.284181, 0.0522701, 0.222684, -0.208818, -0.424695, -0.281864, -0.267774, 0.251254, -0.476963, -0.0586725, -0.494328, 0.402879, -0.110161, -0.186585, -0.462959, -0.355118, 0.365608, -0.198814, 0.41791, 0.191605, 0.297743, -0.214759, -0.0134498, -0.108279, 0.389174, 0.293325, 0.0612307, -0.162999, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 754.741 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 792.512 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 863.801 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 792.328 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 767 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 786.967 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 750.1 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 861.226 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 62978.3 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 57940.3 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 56955.5 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 48118.6 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 43552.2 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 41681.4 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.732881,-0.0874777,0.310764,-0.176689,-0.232265,-0.206017,0.0207418,-0.0476921,-0.385477,-0.0544279,-0.16421,-0.17863,-0.464191,0.105157,-0.45746,0.178337,
+Correctness: 79.156 %.
+AUC: 0.655909
+------------------
+------PLAIN-------
+w:-0.918078,-0.148827,0.427039,-0.225152,-0.294626,-0.261688,-0.081249,-0.0685052,-0.571747,-0.1253,-0.207126,-0.29138,-0.590893,0.113808,-0.550895,0.196413,
+Correctness: 79.156 %.
+AUC: 0.660072
+------------------
+-------TRUE-------
+w:-0.825845,-0.142846,0.472095,-0.198604,-0.245541,-0.222212,-0.0776023,-0.0380884,-0.498486,-0.0778884,-0.185532,-0.270723,-0.520254,0.114739,-0.530239,0.222728,
+Correctness: 79.156 %.
+AUC: 0.67531
+------------------
+ !!! STOP 8 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 9 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6738.08 ms
+------------------
+initial vector = 0.0519587, 0.245821, -0.10447, 0.262058, 0.00832732, 0.0583692, 0.368503, 0.268842, -0.223443, 0.231763, 0.449614, 0.227305, 0.00699356, -0.22229, 0.216833, 0.239616, 0.234873, 0.28371, -0.0863758, -0.309421, 0.00663878, -0.0209401, -0.117764, -0.0413882, 0.273383, -0.0781001, 0.113193, -0.0617853, -0.326035, 0.188411, 0.169364, 0.31166, 0.413464, 0.243581, 0.141137, -0.094543, -0.420792, -0.0229177, -0.405265, -0.379764, -0.337457, -0.401645, 0.263269, 0.070837, 0.247505, -0.132173, 0.187275, -0.321107, -0.0392026, 0.100579, -0.117691, -0.328115, -0.310605, 0.07704, 0.415339, 0.394518, 0.414669, -0.203446, -0.259593, -0.267242, -0.0335311, 0.423968, -0.343248, 0.321545, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 817.365 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 794.522 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 830.182 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 778.365 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 836.146 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 775.137 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 802.376 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 814.395 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 62318.9 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 58369.7 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 57557 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 47858.1 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 43004.2 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 43022.7 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.446779,0.0805763,0.415304,-0.283145,-0.414303,-0.2756,-0.0128012,-0.13501,-0.487222,-0.236114,-0.113043,-0.336346,-0.383772,0.139067,-0.271118,0.0517938,
+Correctness: 79.6675 %.
+AUC: 0.675081
+------------------
+------PLAIN-------
+w:-0.676238,0.0432083,0.522096,-0.339625,-0.488054,-0.341203,-0.0332497,-0.152252,-0.630009,-0.267434,-0.16457,-0.409348,-0.531572,0.167303,-0.408949,0.100636,
+Correctness: 79.6675 %.
+AUC: 0.678082
+------------------
+-------TRUE-------
+w:-0.591515,0.0494054,0.562644,-0.297125,-0.428213,-0.316865,-0.0327109,-0.123376,-0.561572,-0.223057,-0.143496,-0.38603,-0.467923,0.165057,-0.385631,0.124793,
+Correctness: 79.6675 %.
+AUC: 0.686688
+------------------
+ !!! STOP 9 FOLD !!! 
+------------------
+ !!! START Ensemble NLGD for 10 FOLD !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 6881.66 ms
+------------------
+initial vector = -0.309764, -0.0627899, 0.117246, 0.465938, -0.241938, 0.143721, -0.499782, -0.410073, 0.334401, -0.0923883, -0.387803, 0.101092, -0.259045, 0.14214, -0.270135, 0.484743, -0.38581, 0.00735372, 0.438439, 0.430907, -0.0162689, 0.337654, 0.112867, -0.430501, -0.361247, -0.0412627, 0.38252, -0.170383, 0.167415, -0.243858, 0.276209, -0.0174497, -0.276135, -0.165074, 0.498095, -0.394951, -0.17061, -0.0304144, 0.480333, -0.230746, -0.483805, 0.0906294, 0.414363, 0.00788987, -0.0735362, -0.019329, -0.48035, -0.0117631, 0.061582, 0.471059, -0.272819, 0.0740403, 0.0986144, 0.226906, 0.0653701, 0.420527, 0.229659, -0.415499, 0.272169, 0.225801, 0.175138, -0.19545, 0.281909, -0.411973, 
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 816.042 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 770.682 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 753.927 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 714.655 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 727.238 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 791 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 768.249 ms
+------------------
+------------------
+Start Encrypting wData and vData...
+wData and vData encryption time = 779.185 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1013
+------------------
+Start Enc NLGD
+Enc NLGD time = 62675.2 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 56373.2 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 56896.7 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 47963.9 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 44320 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 41519.6 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 6 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP  Ensemble NLGD !!! 
+------------------
+w:-0.747113,-0.0613788,0.676895,-0.0973267,-0.262213,-0.102812,-0.027925,-0.328511,-0.520191,-0.19599,-0.0343241,-0.280645,-0.311937,0.0383613,-0.369747,-0.0471793,
+Correctness: 78.6445 %.
+AUC: 0.695317
+------------------
+------PLAIN-------
+w:-0.915889,-0.0507656,0.807421,-0.182322,-0.384023,-0.188257,-0.0363485,-0.366768,-0.677851,-0.262959,-0.075529,-0.38302,-0.444999,0.080052,-0.472112,-0.0220449,
+Correctness: 78.6445 %.
+AUC: 0.681683
+------------------
+-------TRUE-------
+w:-0.832365,-0.0435244,0.845143,-0.154413,-0.321061,-0.169679,-0.0343837,-0.338059,-0.611027,-0.219526,-0.0487587,-0.360594,-0.388245,0.0843903,-0.449686,0.00189317,
+Correctness: 78.6445 %.
+AUC: 0.693411
+------------------
+ !!! STOP 10 FOLD !!! 
+------------------
+Encrypted correctness: 79.2263%
+Encrypted AUC: 0.676625
+Plain correctness: 79.2263%
+Plain AUC: 0.677889
+True correctness: 7.86445%
+True AUC: 0.689081

@@ -1,0 +1,738 @@
+Current Memory Usage After Scheme Generation: 1MB
+Peak Memory Usage After Scheme Generation: 4MB
+isYfirst = 1, number of iterations = 10, g_k = 5
+factors = 197, samples = 11982, part = 8
+gammaUp = 10, gammaDown = -1, isInitZero = 1
+batch = 32, slots = 65536, cnum = 7
+HEAAN PARAMETER logQ: 1665
+HEAAN PARAMETER logN: 17
+------------------
+Start Scheme generating...
+Scheme generation time = 39906.5 ms
+------------------
+------------------
+Start Polynomial generating...
+Polynomial generation time = 31.785 ms
+------------------
+ !!! START 1 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17649.3 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 324731 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 306532 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 285206 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 267421 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 253149 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 235197 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 215993 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 201976 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 189417 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 179360 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 1 PART !!! 
+------------------
+ !!! START 2 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17617.5 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 322982 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 307214 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 288749 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 265369 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 249909 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 233917 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 218658 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 201804 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 189227 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177191 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 2 PART !!! 
+------------------
+ !!! START 3 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17870.4 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 324793 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 301721 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 288471 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 270043 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 251340 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 234158 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 217753 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 204388 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 187312 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177047 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 3 PART !!! 
+------------------
+ !!! START 4 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17871.8 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 322076 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 308274 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 285486 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 267462 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 256853 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 238643 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 221330 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 201736 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 188859 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 179305 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 4 PART !!! 
+------------------
+ !!! START 5 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17005.9 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 325681 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 305287 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 289328 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 270214 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 250097 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 236266 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 217330 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 201644 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 188126 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177402 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 5 PART !!! 
+------------------
+ !!! START 6 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17007.5 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 320981 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 309258 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 290285 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 269109 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 249937 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 235649 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 213808 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 204307 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 191201 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177328 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 6 PART !!! 
+------------------
+ !!! START 7 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17415.9 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 327998 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 304445 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 285596 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 268617 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 251060 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 238867 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 219314 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 198541 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 188996 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177649 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 7 PART !!! 
+------------------
+ !!! START 8 part !!! 
+------------------
+Start Encrypting zData...
+zData encryption time = 17038 ms
+------------------
+ !!! START 1 ITERATION !!! 
+encWData.logq before: 1665
+------------------
+Start Enc NLGD
+Enc NLGD time = 326497 ms
+------------------
+encWData.logq after: 1522
+ !!! STOP 1 ITERATION !!! 
+ !!! START 2 ITERATION !!! 
+encWData.logq before: 1522
+------------------
+Start Enc NLGD
+Enc NLGD time = 308016 ms
+------------------
+encWData.logq after: 1359
+ !!! STOP 2 ITERATION !!! 
+ !!! START 3 ITERATION !!! 
+encWData.logq before: 1359
+------------------
+Start Enc NLGD
+Enc NLGD time = 286700 ms
+------------------
+encWData.logq after: 1196
+ !!! STOP 3 ITERATION !!! 
+ !!! START 4 ITERATION !!! 
+encWData.logq before: 1196
+------------------
+Start Enc NLGD
+Enc NLGD time = 270063 ms
+------------------
+encWData.logq after: 1033
+ !!! STOP 4 ITERATION !!! 
+ !!! START 5 ITERATION !!! 
+encWData.logq before: 1033
+------------------
+Start Enc NLGD
+Enc NLGD time = 252046 ms
+------------------
+encWData.logq after: 870
+ !!! STOP 5 ITERATION !!! 
+ !!! START 6 ITERATION !!! 
+encWData.logq before: 870
+------------------
+Start Enc NLGD
+Enc NLGD time = 233661 ms
+------------------
+encWData.logq after: 707
+ !!! STOP 6 ITERATION !!! 
+ !!! START 7 ITERATION !!! 
+encWData.logq before: 707
+------------------
+Start Enc NLGD
+Enc NLGD time = 218658 ms
+------------------
+encWData.logq after: 544
+ !!! STOP 7 ITERATION !!! 
+ !!! START 8 ITERATION !!! 
+encWData.logq before: 544
+------------------
+Start Enc NLGD
+Enc NLGD time = 202863 ms
+------------------
+encWData.logq after: 381
+ !!! STOP 8 ITERATION !!! 
+ !!! START 9 ITERATION !!! 
+encWData.logq before: 381
+------------------
+Start Enc NLGD
+Enc NLGD time = 189394 ms
+------------------
+encWData.logq after: 218
+ !!! STOP 9 ITERATION !!! 
+ !!! START 10 ITERATION !!! 
+encWData.logq before: 218
+------------------
+Start Enc NLGD
+Enc NLGD time = 177039 ms
+------------------
+encWData.logq after: 55
+ !!! STOP 10 ITERATION !!! 
+----ENCRYPTED-----
+ !!! STOP 8 PART !!! 
+------------------
+w:-0.266731,-0.00121126,0.000718667,0.00362245,0.00248235,0.00202927,0.000513168,0.003787,2.01444e-05,-0.00376675,-0.00281951,0.00402518,0.00116986,-0.000735536,0.00122535,0.000774001,0.00305809,-0.00361009,-0.00452719,-0.0137804,-0.0347006,-0.0455704,-0.0549759,-0.0341721,-0.0246022,-0.0123669,0.00258048,-0.0041909,-0.000712113,0.00154577,-0.00401213,-0.0314888,-0.170527,-0.399668,-0.62598,-0.52372,-0.183459,0.0471312,0.0689601,0.0751558,0.053181,0.0181971,-0.00131821,0.00246663,-0.0260416,-0.170307,-0.497666,-0.682689,-0.518861,-0.232272,-0.308545,-0.206396,0.120611,0.219716,0.255336,0.072991,0.00654511,-0.000888471,-0.0334906,-0.141563,-0.104073,0.379187,0.874631,0.580514,-0.434496,-0.735886,-0.0540202,0.352433,0.404302,0.113899,0.00706817,-0.00285228,-0.0107775,0.00433368,0.317987,1.04627,1.43298,0.484723,-0.882618,-0.694574,0.294472,0.540376,0.311521,0.0722505,0.00478044,0.00265033,0.000193918,0.0216128,0.203593,0.476066,0.346723,-0.111653,-0.505401,-0.182181,0.0608388,0.196694,0.0960448,0.0186926,0.00302986,-0.00071189,-0.00711843,-0.022617,0.00049244,-0.0634622,0.0256055,0.797519,0.843339,-0.235554,-0.92179,-0.377301,-0.0189419,0.0100436,0.00167025,-0.000476551,-0.0277731,-0.120986,0.0010838,0.587098,1.54499,1.84417,1.10052,-0.147753,-1.07397,-0.58184,-0.097756,0.0168109,0.000978351,0.00136903,-0.09116,-0.366587,-0.124171,0.981837,1.71937,1.04726,0.271999,-0.529099,-0.836963,-0.448795,-0.05393,0.0192741,-0.00135511,-0.00166976,-0.112836,-0.541923,-0.577609,0.0830569,0.491345,-0.0814664,-0.590357,-0.675191,-0.382398,-0.122174,0.0317672,0.00549542,0.00419313,0.00231846,-0.0514688,-0.318525,-0.635918,-0.654767,-0.295279,0.0782939,0.145151,0.177472,0.127633,0.0847729,0.0226173,0.00183711,0.000961383,-0.00256619,-0.00980007,-0.0488738,-0.151872,-0.214042,-0.159283,0.011518,0.120839,0.0777631,0.0391633,0.0114312,0.000372138,0.00462701,0.00562274,0.00382288,-0.00163143,-0.000547844,-0.00661324,-0.00458883,-0.013981,-0.00527367,-0.00343376,-0.00863858,-0.0114732,-0.000837366,-3.67413e-05,-0.00288821,-0.000741381,
+Correctness: 94.2036 %.
+AUC: 0.98478
+------------------
+------PLAIN-------
+w:-0.263482,-0.000219094,0.0007988,0.00397991,0.000481493,0.000354762,-0.000865161,0.00157275,-1.21827e-05,-0.00198248,-0.00189153,0.00243194,-0.000666032,-0.00144038,-0.000846693,-0.00177499,0.00346376,-0.00480207,-0.00473718,-0.0150116,-0.0336131,-0.0451497,-0.0555433,-0.0359689,-0.0256466,-0.0123671,0.00330811,-0.00311164,1.20285e-05,0.000342074,-0.00483927,-0.033233,-0.163622,-0.39751,-0.625426,-0.524152,-0.184591,0.0473605,0.0664195,0.0750894,0.0527299,0.0190295,0.000421778,-0.000231943,-0.0253071,-0.172207,-0.496525,-0.686149,-0.520084,-0.23452,-0.308572,-0.206921,0.121973,0.220205,0.256611,0.0700213,0.00783424,-0.000328611,-0.0336369,-0.143077,-0.104596,0.380192,0.874306,0.58035,-0.430873,-0.735987,-0.0531091,0.353643,0.404387,0.114605,0.00529307,-0.00287345,-0.0114952,0.00522958,0.318182,1.04304,1.4309,0.482986,-0.883088,-0.695844,0.295747,0.541092,0.310514,0.0696279,0.00505885,0.00174572,-0.000323385,0.0201584,0.201939,0.473817,0.345971,-0.112315,-0.503039,-0.183157,0.0606419,0.196677,0.101712,0.0194704,0.00287271,0.000843964,-0.00821734,-0.0220117,-0.00107856,-0.0623021,0.0263239,0.797373,0.844279,-0.236002,-0.922475,-0.375915,-0.0189815,0.00793223,0.00297277,-2.83788e-05,-0.0292165,-0.120805,0.00049432,0.586107,1.54461,1.84377,1.10035,-0.147837,-1.07519,-0.581648,-0.0955837,0.0148568,0.00204963,0.000806215,-0.0876401,-0.36574,-0.12456,0.983706,1.71871,1.04636,0.268863,-0.528852,-0.836375,-0.447735,-0.0527593,0.0179484,-0.00211825,-0.00220438,-0.113055,-0.542904,-0.578452,0.0803759,0.49022,-0.0813889,-0.589644,-0.676429,-0.382498,-0.122973,0.0313782,0.00457719,0.00402671,0.00222886,-0.0496179,-0.317562,-0.637165,-0.657333,-0.292229,0.0777047,0.144619,0.18078,0.128397,0.0844774,0.020635,0.00131347,0.00246108,-0.00156527,-0.00649374,-0.0541706,-0.151012,-0.213865,-0.159036,0.00808001,0.121061,0.0772222,0.0385706,0.0112309,0.000962884,0.00453965,0.00204695,0.00193201,-0.00164741,0.000560991,-0.00612427,-0.00619809,-0.0128962,-0.00643933,-0.00642386,-0.00826119,-0.00419908,0.000469093,-0.00101341,-0.000180515,-0.00187492,
+Correctness: 94.2036 %.
+AUC: 0.984765
+------------------
+-------TRUE-------
+w:-0.276674,-0.000219094,0.0007988,0.00397991,0.000481493,0.000354762,-0.000865161,0.00157275,-1.21827e-05,-0.00198248,-0.00189153,0.00243194,-0.000666032,-0.00144038,-0.000846693,-0.00177499,0.00346376,-0.00473757,-0.00500349,-0.01607,-0.0343517,-0.0453906,-0.0558482,-0.0362092,-0.0252183,-0.0123133,0.00329758,-0.00306979,1.20285e-05,0.000342074,-0.00481804,-0.0352089,-0.177288,-0.440154,-0.697123,-0.608528,-0.250449,0.0237051,0.0774339,0.0873864,0.0591295,0.0206803,0.000534802,-9.59959e-06,-0.0259919,-0.182045,-0.538925,-0.764967,-0.581393,-0.244663,-0.30255,-0.212451,0.155048,0.276272,0.292976,0.0770996,0.00880516,-0.000229431,-0.0346314,-0.147041,-0.117183,0.39712,0.965997,0.67439,-0.423601,-0.80264,-0.0494596,0.43308,0.45706,0.126817,0.00613641,-0.00277427,-0.0114253,0.0068687,0.326631,1.09976,1.52036,0.470045,-0.996165,-0.771101,0.355906,0.622376,0.344501,0.0762266,0.0057282,0.00174572,-0.000137625,0.0207135,0.206258,0.495326,0.363217,-0.172934,-0.587475,-0.195187,0.0885463,0.219556,0.110028,0.0219997,0.003356,0.000933393,-0.00780011,-0.0222375,-0.00306576,-0.0603348,0.0657533,0.871953,0.91702,-0.23334,-1.01831,-0.420559,-0.0205634,0.00841188,0.00297277,-7.41972e-05,-0.0294667,-0.124136,-0.000597423,0.610739,1.63425,1.96718,1.20741,-0.126041,-1.17621,-0.660531,-0.103639,0.0152819,0.00204963,0.000670967,-0.090888,-0.381208,-0.132735,1.04229,1.82135,1.11329,0.347683,-0.521982,-0.935135,-0.515373,-0.0582984,0.0174227,-0.00211825,-0.00220138,-0.118135,-0.571713,-0.611453,0.0989894,0.511604,-0.0786385,-0.588143,-0.734719,-0.460558,-0.148508,0.0308394,0.00479605,0.00402671,0.00222886,-0.0512931,-0.332818,-0.664772,-0.679278,-0.307845,0.0555989,0.117777,0.154932,0.116705,0.0846007,0.0211323,0.00138086,0.00246108,-0.00156527,-0.00658802,-0.0547936,-0.150076,-0.202109,-0.133671,0.0338923,0.1353,0.080906,0.0391726,0.0109893,0.000710866,0.00453965,0.00204695,0.00193201,-0.00164741,0.000560991,-0.00610757,-0.00615309,-0.0122614,-0.00592928,-0.00623496,-0.00847424,-0.00434555,0.000448145,-0.00101341,-0.000180515,-0.00187492,
+Correctness: 93.75 %.
+AUC: 0.983064
+------------------
+Average Encrypted correctness: 94.2036%
+Average Encrypted AUC: 0.98478
+Average True correctness: 93.75%
+Average True AUC: 0.983064
